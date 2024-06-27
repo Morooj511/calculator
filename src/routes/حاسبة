@@ -1,0 +1,108 @@
+<script lang=" "ts>
+    let x: number;
+    x=5;
+function getMax(x: number, y:number): number {
+    if(x>y) return x;
+    else return y;
+}
+consol.log(getMax(1,2));
+
+
+
+
+
+  </script>  
+
+<h1> 
+    المعلومات الشخصية
+   </h1>
+<hr>
+<p> 
+مروج
+</p>
+
+<p>
+   طالبة حاسب
+</p>
+
+<p>
+  +96600000
+</p>
+
+<h1>
+   السيرة الذاتية
+</h1>
+<hr>
+<p>
+   ام القرى 2023-2027
+</p>
+
+<p>
+    طالبة تحب التطوير 
+</p>
+
+<h1>المشاريع</h1>
+<hr>
+<p>
+  1- الة حاسبة
+</p>
+
+<p>
+   2- متتبع المهام
+</p>
+
+<p>
+   3- موقع سيرة ذاتية
+</p>
+
+
+
+
+<script lang=" "ts>
+    let x = 5;
+    function increment() {
+   x +=1;
+}
+
+    function decrement() {
+   x -=1;
+}
+  </script>  
+
+  <h1 class= "text-5x1">
+    X is {x}
+
+  </h1>
+
+  <button on:click={increment} class="text-5x1">
+    +
+
+  </button>
+
+  <button on:click={decrement} class="text-5x1">
+    -
+  </button>
+
+
+
+  <script lamg="ts">
+    let x =1;
+    function increment(){
+        x *=2;
+    } 
+
+    function Dcermant(){
+        x /=2;
+    }
+</script>
+
+<div class="bg-black h-80">
+    <h1 class="text-5x1 text-sky-500 "> Counter  </h1>
+    <h1 class="text-5x1 text-lime-500"> {x}</h1>
+    <button on:click={Dcermant} class="text-5x1 text-white border" >
+        Divide
+    </button>
+    <button on:click={increment} class="text-5x1 text-white border" >
+        Mulitply
+    </button>
+</div>

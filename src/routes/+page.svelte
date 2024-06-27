@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<svelte:head>
+    <title>
+        calculator.Morooj
+    </title>
+</svelte:head>
+    <div class="bg-white h-[30rem]  w-[20rem] rounded-3xl "> 
+        <body class="bg-red-600 flexjustify-center ">
+
+		</body>
+
+    </div>
